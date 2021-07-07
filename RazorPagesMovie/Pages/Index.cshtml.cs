@@ -8,6 +8,9 @@ using Microsoft.Extensions.Logging;
 
 namespace RazorPagesMovie.Pages
 {
+    /// <summary>
+    /// 一个 .cshtml.cs 文件，其中包含处理页面事件的 C# 代码
+    /// </summary>
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
